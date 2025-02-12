@@ -9,7 +9,7 @@ export default defineConfig({
     vue(),
     compression()
   ],
-  base: "/Resume/",
+  base: "/resume/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
