@@ -33,7 +33,7 @@ jobs:
       - name: Deploy # 部署站点。
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.ACCESS_TOKEN }} # 访问秘钥
+          personal_token: ${{ secrets.RESUME_TOKEN }} # 访问秘钥
           publish_branch: gh-pages # 推送分支
           publish_dir: dist # 发布目录为 docs
 
