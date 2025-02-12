@@ -35,7 +35,7 @@ jobs:
         with:
           personal_token: ${{ secrets.ACCESS_TOKEN }} # 访问秘钥
           publish_branch: gh-pages # 推送分支
-          publish_dir: docs # 发布目录为 docs
+          publish_dir: dist # 发布目录为 docs
 
 
       # 如果在执行的时候报错，提示需要用户名跟邮箱，那么需要单独设置下邮箱跟用户名
